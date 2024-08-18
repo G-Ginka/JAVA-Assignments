@@ -1,0 +1,20 @@
+Encapsulation: This concept involves bundling the data (variables) and the methods (functions) that operate on the data into a single unit or class. It restricts direct access to some of an object's components, which is a means of preventing unintended interference and misuse. Encapsulation is achieved through access modifiers (e.g., private, protected, public) and getter and setter methods.
+
+Abstraction: Abstraction is the concept of hiding the complex implementation details and showing only the essential features of the object. In Java, abstraction is achieved through abstract classes and interfaces. An abstract class can have abstract methods (without implementation) and concrete methods (with implementation). Interfaces define a contract that classes can implement, specifying methods that must be provided.
+
+Inheritance: Inheritance allows a new class (subclass or derived class) to inherit properties and behaviors (fields and methods) from an existing class (superclass or base class). This promotes code reuse and establishes a natural hierarchy between classes. In Java, inheritance is implemented using the extends keyword.
+
+Polymorphism: Polymorphism enables one interface to be used for a general class of actions. The specific action is determined by the exact nature of the situation. In Java, polymorphism can be achieved through method overloading (multiple methods with the same name but different parameters) and method overriding (subclass providing a specific implementation of a method that is already defined in its superclass).
+
+Composition: Composition is a design principle where a class is composed of one or more objects from other classes. It represents a "has-a" relationship rather than an "is-a" relationship (which is represented by inheritance). Composition allows objects to be composed of other objects, enabling more flexible and reusable designs.
+
+Association: Association represents the relationship between two classes. It can be categorized into different types:
+
+One-to-One: One object of class A is associated with one object of class B.
+One-to-Many: One object of class A is associated with multiple objects of class B.
+Many-to-One: Multiple objects of class A are associated with one object of class B.
+Many-to-Many: Multiple objects of class A are associated with multiple objects of class B.
+Aggregation: Aggregation is a special form of association with a whole-part relationship where the part can exist independently of the whole. For example, a university and a student where a student can exist independently of the university.
+
+Dependency: Dependency represents a situation where one class depends on another class to function. This typically means that a change in one class might require a change in the dependent class. In Java, dependencies are often managed through the use of constructors, method parameters, or dependency injection frameworks.
+
